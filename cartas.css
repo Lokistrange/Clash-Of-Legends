@@ -1,0 +1,9 @@
+/* cor de fundo pincipal */
+body {
+    background-color: rgb(192, 4, 4);
+} 
+
+/* fonte de letra */
+body {
+    font-family: fantasy;
+}
