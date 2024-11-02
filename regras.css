@@ -1,0 +1,26 @@
+/* cor de fundo principal (não usado) */
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/* fonte de letra */
+body {
+    font-family: fantasy;
+}
+
+/* mudança de cor principal */
+body {
+    background-color: rgb(255, 255, 255);
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    from {
+        background-color: rgb(174, 174, 174);
+    }
+
+    to {
+        background-color: rgb 253, 212, 6;
+    }
+}
