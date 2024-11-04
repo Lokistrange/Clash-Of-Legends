@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: fantasy;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    from {
+        background-color: rgb(157, 157, 157);
+    }
+
+    to {
+        background-color: rgb(255, 255, 255);
+    }
+}
