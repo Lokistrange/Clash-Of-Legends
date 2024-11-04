@@ -1,9 +1,23 @@
-/* cor de fundo pincipal */
 body {
-    background-color: rgb(200, 4, 4);
-} 
+    background-color: rgb(208, 205, 205);
+}
 
-/* fonte de letra */
 body {
     font-family: fantasy;
+}
+
+body {
+    background-color: rgb(206, 205, 205);
+    animation-name: example;
+    animation-duration: 5s;
+}
+
+@keyframes example {
+    from {
+        background-color: rgb(255, 255, 255);
+    }
+
+    to {
+        background-color: rgb 253, 212, 6;
+    }
 }
