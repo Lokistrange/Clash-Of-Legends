@@ -1,23 +1,20 @@
 body {
-    background-color: rgb(208, 205, 205);
-}
-
-body {
+    background-color: rgb(0, 0, 0);
     font-family: fantasy;
-}
-
-body {
-    background-color: rgb(206, 205, 205);
-    animation-name: example;
+    animation-name: backgroundAnimation;
     animation-duration: 5s;
 }
 
-@keyframes example {
+    @keyframes backgroundAnimation {
     from {
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
     }
 
     to {
-        background-color: rgb 253, 212, 6;
+        background-color: rgb(0, 0, 0);
     }
+}
+
+body {
+    background-image: url(https://wallpapers.com/images/hd/stars-background-wallpaper-cars-hd-wallpaper-gobc57yh6xrtnrkz.jpg);
 }
