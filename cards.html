@@ -1,53 +1,171 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width initial-scale=0.5">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CARTAS</title>
-    <link rel="icon" type="x-icon" href="https://cdn-icons-png.flaticon.com/512/1/1434.png">
-
-</head>
-<style>
-    body {
-        background-color: rgb(0, 0, 0);
-        font-family: fantasy;
-        animation-name: example;
-        animation-duration: 4s;
-    }
-
-    @keyframes example {
-        from {
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/1/1434.png">
+<link href="css/cards.css">
+    <style>
+        body {
             background-color: rgb(0, 0, 0);
+            font-family: fantasy;
+            animation-name: example;
+            animation-duration: 4s;
+            color: white;
+            background-image: url(https://wallpapers.com/images/hd/stars-background-wallpaper-cars-hd-wallpaper-gobc57yh6xrtnrkz.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
         }
 
-        to {
-            background-color: rgb(0, 0, 0);
+        @keyframes example {
+            from {
+                background-color: rgb(0, 0, 0);
+            }
+
+            to {
+                background-color: rgb(0, 0, 0);
+            }
         }
-    }
 
-    body {
-        background-image: url(https://wallpapers.com/images/hd/stars-background-wallpaper-cars-hd-wallpaper-gobc57yh6xrtnrkz.jpg);
-    }
-</style>
+        h1 {
+            text-align: center;
+        }
 
-<head>
-<h1 style="text-align: center;"><p style="color: white;">CARTAS DO LEAGUE OF LEGENDS</p></h1>
-<br>
-<details unopen>
-    <summary style="text-align: center;"><h1 style="color: white;">ALBERT EINSTEN</h1></summary>
-    <p style="text-align: center;"><img src="https://i.ibb.co/X3BJHNM/einstein.png" alt="einstein.png" width="" height=""></p>
-</details>
-<br>
-<details unopen>
-    <summary style="text-align: center;"><h1 style="color: white;">ISAAC NEWTON</h1></summary>
-    <p style="text-align: center;"><img src="https://i.ibb.co/TrLVkd5/Issac-Newton.png" alt="isaac_newton.png" width="" height=""></p>
-</details>
-<br>
-<details unopen>
-    <summary style="text-align: center;"><h1 style="color: white;">NICOLAS TESLA</h1></summary>
-    <p style="text-align: center;"><img src="https://i.ibb.co/hLfPjBn/carta-Nicolas-tesla.png" alt="nicolas_tesla.png" width="435" height="585"></p>
-</details>
+        p {
+            text-align: center;
+        }
 
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        details {
+            margin: 20px;
+        }
+
+        summary {
+            cursor: pointer;
+            text-align: center;
+            font-size: 1.5em;
+        }
+
+        .highlight {
+            color: red;
+        }
+
+        /* Efeito de hover nas imagens */
+        img {
+            transition: transform 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+    </style>
 </head>
+
+<body>
+    <h1 style="color: rgb(244, 19, 19);">CARTAS DO LEAGUE OF LEGENDS</h1>
+    <h1 style="color: rgb(243, 17, 17);">Cartas de personagens:</h1>
+
+    <details>
+        <summary id="einstein">ALBERT EINSTEIN</summary>
+        <p><img src="https://i.ibb.co/X3BJHNM/einstein.png" alt="einstein.png" width="435" height="435"></p>
+    </details>
+
+    <details>
+        <summary id="newton">ISAAC NEWTON</summary>
+        <p><img src="https://i.ibb.co/TrLVkd5/Issac-Newton.png" alt="isaac_newton.png" width="435" height="585"></p>
+    </details>
+
+    <details>
+        <summary id="tesla">NICOLAS TESLA</summary>
+        <p><img src="https://i.ibb.co/hLfPjBn/carta-Nicolas-tesla.png" alt="nicolas_tesla.png" width="435"
+                height="585"></p>
+    </details>
+
+    <details>
+        <summary id="cleopatra">CLEÓPATRA</summary>
+        <p><img src="https://i.ibb.co/vq25yrL/Cleopatra.png" alt="Cleopatra" width="435" height="585"></p>
+    </details>
+
+    <details>
+        <summary id="curie">MARIE CURIE</summary>
+        <p><img src="https://i.ibb.co/XjpHqg6/Marie-Curie.png" alt="Marie-Curie" width="435" height="585"></p>
+    </details>
+
+    <details>
+        <summary id="daVinci">LEONARDO DA VINCI</summary>
+        <p><img src="https://i.ibb.co/WH8D9x1/Leonardo-da-Vinci.png" alt="Leonardo-da-Vinci" width="435" height="585">
+        </p>
+    </details>
+
+    <details>
+        <summary id="turing">ALAN TURING</summary>
+        <p><img src="https://i.ibb.co/CV9wZDD/Alan-Turing.png" alt="Alan-Turing" width="435" height="585"></p>
+    </details>
+
+    <h1 style="color: rgb(213, 3, 3);">Cartas de suporte:</h1>
+
+    <details>
+        <summary id="suporteVida">SUPORTE DE VIDA</summary>
+        <p><img src="https://i.ibb.co/C8wcB15/Suporte-vida.png" alt="Suporte-vida" width="435" height="585"></p>
+    </details>
+
+    <details>
+        <summary id="suporteProtecao">SUPORTE DE PROTEÇÃO</summary>
+        <p><img src="https://i.ibb.co/2dRHVhM/suporte-protecao.png" alt="suporte-protecao" width="435" height="585"></p>
+    </details>
+
+    <details>
+        <summary id="suporteAtaque">SUPORTE DE DOBRO ATAQUE</summary>
+        <p><img src="https://i.ibb.co/Msr8q6P/Suporte-dobro-ataque.png" alt="Suporte-dobro-ataque" width="435"
+                height="585"></p>
+    </details>
+
+    <script>
+        // Função para adicionar ou remover a classe highlight ao clicar no summary
+        function toggleHighlight(id) {
+            var element = document.getElementById(id);
+            element.classList.toggle("highlight");
+        }
+
+        // Adiciona um evento de clique para cada carta
+        document.getElementById('einstein').addEventListener('click', function () {
+            toggleHighlight('einstein');
+        });
+        document.getElementById('newton').addEventListener('click', function () {
+            toggleHighlight('newton');
+        });
+        document.getElementById('tesla').addEventListener('click', function () {
+            toggleHighlight('tesla');
+        });
+        document.getElementById('cleopatra').addEventListener('click', function () {
+            toggleHighlight('cleopatra');
+        });
+        document.getElementById('curie').addEventListener('click', function () {
+            toggleHighlight('curie');
+        });
+        document.getElementById('daVinci').addEventListener('click', function () {
+            toggleHighlight('daVinci');
+        });
+        document.getElementById('turing').addEventListener('click', function () {
+            toggleHighlight('turing');
+        });
+        document.getElementById('suporteVida').addEventListener('click', function () {
+            toggleHighlight('suporteVida');
+        });
+        document.getElementById('suporteProtecao').addEventListener('click', function () {
+            toggleHighlight('suporteProtecao');
+        });
+        document.getElementById('suporteAtaque').addEventListener('click', function () {
+            toggleHighlight('suporteAtaque');
+        });
+    </script>
+</body>
+
 </html>
