@@ -3,6 +3,10 @@ body {
     font-family: fantasy;
     animation-name: example;
     animation-duration: 4s;
+    color: white;
+    background-image: url(https://wallpapers.com/images/hd/stars-background-wallpaper-cars-hd-wallpaper-gobc57yh6xrtnrkz.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @keyframes example {
@@ -15,6 +19,39 @@ body {
     }
 }
 
-body {
-    background-image: url(https://wallpapers.com/images/hd/stars-background-wallpaper-cars-hd-wallpaper-gobc57yh6xrtnrkz.jpg);
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+details {
+    margin: 20px;
+}
+
+summary {
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.highlight {
+    color: red;
+}
+
+/* Efeito de hover nas imagens */
+img {
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
